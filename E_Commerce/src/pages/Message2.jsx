@@ -1,6 +1,8 @@
 import './Message.css';
+import {useNavigate} from "react-router-dom";
 
 function Message() {
+    const navigate = useNavigate();
 
     return (
         <>

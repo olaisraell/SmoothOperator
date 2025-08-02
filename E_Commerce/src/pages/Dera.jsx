@@ -1,6 +1,6 @@
 import './Dera.css'
 import {useNavigate} from "react-router-dom";
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 
 function Dera(){
 
