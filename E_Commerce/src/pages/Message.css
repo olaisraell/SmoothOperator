@@ -1,0 +1,15 @@
+.bigMessage {
+    background-color: #f0fdf4 ;
+    color: Black;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+}

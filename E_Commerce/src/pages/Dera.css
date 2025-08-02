@@ -35,15 +35,81 @@
 }
 
 .message{
-    width: 15dvw;
+    width: 30dvh;
     height: 10dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #d1fae5;
+    border: 1px solid orange;
+    border-radius: 2dvh;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 2.5px 5px rgba(0,0,0,0.2);
+
 }
 
+.message:hover{
+    transform: scale(1.005);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+
+
+.middlePart{
+    background-color: #f0fdf4 ;
+    border: 1px solid orange;
+    width: 50dvh;
+    height: 60dvh;
+    border-radius: 2dvh;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 2.5px 5px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlePart:hover{
+    transform: scale(1.005);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+
+.player{
+    width: 80%;
+    height: 60%;
+    border: 2px solid orange;
+}
+
+.buttons{
+    margin-top: 5vh;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:
+            radial-gradient(#10b981  10%, transparent 11%) repeat;
+    background-size: 1dvw 1dvw;
+    background-color: #d1fae5;
+}
+
+.buttons button{
+    width: 25%;
+    height: 80%;
+    background-color: #d1fae5;
+    border: 1px solid orange;
+    border-radius: 2dvh;
+    color: #9e9990;
+    font-family: 'JetBrains Mono', monospace;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.buttons button:hover{
+    transform: translateY(-10%);
+}
 
 .bottomStuff{
     position: fixed;
