@@ -85,13 +85,14 @@
 
 .birthdayCard{
     width: 100%;
-    background-color: black;
+    background-color: #d1fae5;
     height: 100%;
     border-radius: 2dvh;
-    border: 1px dashed black;
-    color: #888888;
+    border: 1px dashed #10b981;
+    color: #10b981;
     font-family: "JetBrains Mono", monospace;
     font-size: 5vh;
+    padding: 1vh;
     display: flex;
     justify-content: center;
     align-items: center;
