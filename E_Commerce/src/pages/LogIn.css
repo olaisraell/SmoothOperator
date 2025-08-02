@@ -1,0 +1,145 @@
+
+
+.canvas{
+    width: 100dvw;
+    height: 100dvh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0fdf4 ;
+}
+
+.copyright{
+    position: fixed;
+    bottom: 3dvh;
+    font-family: "JetBrains Mono", monospace;
+    color: #b3b0aa;
+    font-size: 2dvh;
+}
+
+.loginContainer{
+    /*background-color: #f3f8fc;*/
+    border: 1px solid orange;
+    width: 50dvh;
+    height: 70dvh;
+    border-radius: 2dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 2.5px 5px rgba(0,0,0,0.2);
+
+}
+
+.loginContainer:hover{
+    transform: scale(1.005);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.circle{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #d1fae5;
+    border: 1px dashed orange;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.innerCircle{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #d1fae5;
+    border: 1px dashed orange;
+    transition: transform 0.3s ease-in-out
+}
+
+.innerCircle:hover{
+    transform: translateY(-20%);
+}
+
+.circle:hover{
+    transform: translateY(-20%);
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.loginContainer div{
+    /*border: 1px solid black;*/
+}
+
+.pic{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.inputs{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.submitButton{
+    width: 60%;
+    height: 8%;
+}
+
+.submitButton button{
+    width: 90%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #d1fae5;
+    border: 1px solid orange;
+    font-weight: bold;
+    color: #9e9990;
+    font-family: 'JetBrains Mono', monospace;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.submitButton button:hover{
+    transform: translateY(-20%);
+
+}
+
+span{
+    font-family: 'JetBrains Mono', monospace;
+    color: #9e9990;
+    font-size: 2vh;
+}
+
+input{
+    padding-left: 1dvh;
+    height: 30%;
+    width: 100%;
+    border: #888888 solid 1px;
+    border-radius: 1vh;
+    font-family: "JetBrains Mono ExtraLight", monospace;
+}
+
+input:focus{
+    outline: none;
+}
+
